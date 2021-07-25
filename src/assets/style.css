@@ -1,0 +1,93 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+*{
+  color: #fff !important;
+  font-weight: bold;
+}
+body{
+    text-align:center;
+    background-color:#21212b;
+    color:#afbccc;
+    font-family:sans-serif;
+    font-weight:300;
+    font-size:16px;
+    line-height:1.8;
+    min-height:100vh;
+  }
+    @media (min-width: 740px)
+    {body{font-size:18px}}
+    .container{
+      margin-left:auto;
+      margin-right:auto;
+      width:90%;
+      text-align:left
+    }@media (min-width: 740px){
+      .container{width:600px}}
+      @media (min-width: 1200px){
+        .container{width:700px}}
+        h1,h2,h3
+        {
+          color:#fff;
+          font-weight:600;
+          margin-top:2em;
+          margin-bottom:0.2em;
+          line-height:1;
+          
+
+        }h1
+        {
+          font-size:2em;
+          margin-top:0.4em;
+          margin-bottom:0.3em;
+          line-height:1;
+          font-family: 'Yellowtail', cursive;
+          text-decoration: none;
+          text-shadow: 10px 5px 6px aqua !important;
+
+        }
+        @media (min-width: 740px)
+        {
+          h1
+          {
+            font-size:5em
+          }
+        }
+        @media (min-width: 1200px)
+        {
+          h1
+          {
+            font-size:6em
+          }
+        }
+        h3
+        {
+          margin-top:1em;
+          margin-bottom:1em;
+          font-family: 'Sansita Swashed', cursive !important;
+          color: #fa73d9 !important;
+        }
+        a:link,a:visited
+        {
+          color:#fff;
+          text-decoration:none;
+          border-bottom:solid 1px #4c688d
+        }
+        a:hover,a:focus
+        {
+          color:whitesmoke;
+          border-bottom:solid 2px whitesmoke
+        }
+Button{
+  font-family: 'Sansita Swashed', cursive !important;
+  margin-top: 1em !important;
+  box-shadow: 0 0 6px #fa73d9 !important;
+  border: 2px solid #fa73d9 !important;
+  background-color: transparent !important;
+  font-size: .9em !important;
+  color: #fa73d9 !important;
+  padding: 1em 2em !important;
+  border-radius: 4em !important;
+  cursor: pointer !important;
+  transition: all .3s !important;
+}
